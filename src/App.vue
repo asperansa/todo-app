@@ -12,6 +12,27 @@ export default {
   components: {
     TodoList,
   },
+  data() {
+    return {
+      todo: [{
+        title: 'To water flowers',
+        project: 'House',
+        done: false,
+      }, {
+        title: 'Pay the bills',
+        project: 'House',
+        done: true,
+      }, {
+        title: 'Buy products',
+        project: 'Family',
+        done: false,
+      }, {
+        title: 'Meet parents',
+        project: 'Family',
+        done: false,
+      }],
+    };
+  },
 };
 </script>
 
